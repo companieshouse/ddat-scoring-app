@@ -1,6 +1,6 @@
 {
   "name": "ddat-scoring-app",
-  "version": "0.1 .0",
+  "version": "0.1.0",
   "description": "",
   "main": "src/server.js",
   "keywords": [],
@@ -12,6 +12,6 @@
     "express": "^4.17.1"
   },
   "scripts": {
-    "start": "node src/server.js" 
+    "start": "node server.js" 
   }
 }

@@ -7,8 +7,8 @@ app.use( bodyParser( { extended: false } ));
 const fs = require( 'fs' );
 const path = require( 'path' );
 
-const rolesdir = './roles/';
-const datadir = './data/';
+const rolesdir = path.join(process.cwd(), "roles");
+const datadir = path.join(process.cwd(), "data");
 const hostname = "http://localhost:8080";
 
 // helper: convert string to lowercase with no spaces, useful to make keys
@@ -18,13 +18,13 @@ function lcns( str ) {
 
 function saveDoc( docid, doc ) {
   var json = JSON.stringify( doc );
-  var filename = `${datadir}${docid}.json`;
+  var filename = path.join(datadir, `${docid}.json`);
   fs.writeFileSync( filename, json );
 }
 
 function loadDoc( docid ) {
   var json = {};
-  var filename = `${datadir}${docid}.json`;
+  var filename = path.join(datadir, `${docid}.json`);
   try {
     json = require( filename );
     // console.log( `Loaded ${filename}`  );
@@ -38,13 +38,13 @@ function loadDoc( docid ) {
 }
 
 function isDocIdExists( docid ) {
-  var filename = `${datadir}${docid}.json`;
+  var filename = path.join(datadir, `${docid}.json`);
   return fs.existsSync( filename );
 }
 
 // helper: get directory listing of json role description files
 function getRoles() {
-  const filename = rolesdir + '*'; 
+  const filename = path.join(rolesdir, '*'); 
   const dirname = path.dirname(filename);
   const dirContents = fs.readdirSync(dirname);
   return dirContents.filter( (filename) => filename.endsWith( '.json' ) );
@@ -57,10 +57,11 @@ function getRolesDB() {
   var jsonfiles = getRoles();
   var db = {};
 
-  for (var i in jsonfiles) {
+  for (var i of jsonfiles) {
     try {
-      var json = require( "./roles/" + jsonfiles[i] );
-      console.log( `Loaded ${json.role} from ${jsonfiles[i]}`  );
+      var roleJsonFile = path.join(rolesdir, i);
+      var json = JSON.parse(fs.readFileSync(roleJsonFile).toString("utf8"))
+      console.log( `Loaded ${json.role} from ${roleJsonFile}`  );
       roleNames.push( json.role );
       db[ lcns( json.role ) ] = json;
     }
@@ -455,4 +456,3 @@ app.post('/role/:role/:skill/:docid', function(req, res) {
 
 app.listen(8080);
 console.log('Server is listening on port 8080');
-
