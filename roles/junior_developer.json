@@ -1,0 +1,148 @@
+
+{
+  "role": "Junior Developer",
+  "skills": 
+    [
+      {
+        "name": "Availability and Capacity Management",
+        "description":
+          [
+            "+Awareness Level",
+            "You can show awareness of availability and capacity management and process"
+          ],
+        "evidence":
+          [
+            "To join team Scrum planning sessions to gain an understanding of ticket scheduling and have an awareness of tradeoffs between requirements and resource capacity",
+            "Use daily stand-up meeting to update the team on progress made and plan for the day. Update the team on any blockers",
+            "Raise blockers with the team in a timely fashion",
+            "Jira stories to be kept up to date, with relevant comments added"
+
+          ]
+      },
+      {
+        "name": "Information Security",
+        "description":
+          [
+            "You can demonstrate an understanding of information security and the types of security controls that can be used to mitigate security threats within solutions and services"
+          ],
+        "evidence":
+          [
+            "To have read sections of the Security Policy relevant to Software Development",
+            "To have gained familiarity with SonarQube and dependency tracking tools",
+            "To have completed mandatory Pluralsight Security courses",
+            "Complete Civil Service Learning",
+            "Should be familiar with the CH Secure Design Principles",
+            "Should be familiar with CH Secure Software Development LifeCycle"
+          ]
+      },
+      {
+        "name": "Modern Standards Approach",
+        "description":
+          [
+            "You can explain the most important principles of a modern standards approach and how they apply to the work you are undertaking apply these principles under guidance"
+          ],
+        "evidence":
+          [
+            "Understand and apply the CH coding standards",
+            "Use code reviews to ensure quality of your code",
+            "Check that your code passes SonarQube quality reports",
+            "To have a working understanding of the UK Gov guidance on Technology and Software Development processes",
+            "To have a very high level working knowledge of UK Gov Service Manual"
+          ]
+      },
+      {
+        "name": "Software Engineering",
+        "description":
+          [
+            "You can design, code, test, correct and document simple programs or scripts under the direction of others"
+          ],
+        "evidence":
+          [
+            "To have developed software (with support) in one of CH approved languages (Java, Javascript/Typescript) including unit tests and documentation and for this software to have passed review and independent testing and been deployed into production"
+          ]
+      },
+      {
+        "name": "Prototyping",
+        "description":
+          [
+            "You can understand when to use a specific prototyping technique or method and show the value of prototyping to your team"
+          ],
+        "evidence":
+          [
+            "To have been involved in a prototyping exercise (as project timing allows) and be able to demonstrate an aspect of a prototype you have input to"
+          ]
+      },
+      {
+        "name": "Service Support",
+        "description":
+          [
+            "You can help fix faults following agreed procedures and carry out agreed maintenance tasks on infrastructure"
+          ],
+        "evidence":
+          [
+            "To have resolved an outstanding issue (BI, bug, maintenance upgrade, or security fix) using CH standard software development process"
+          ]
+      },
+      {
+        "name": "System Design",
+        "description":
+          [
+            "You can assist as part of a team in the design of components of larger systems."
+          ],
+        "evidence":
+          [
+            "To have joined your team in discussing and working through technical design of components as part of normal project work"
+          ]
+      },
+      {
+        "name": "System Integration",
+        "description":
+          [
+            "You can talk about the process of integrating systems and the challenges of designing, building and testing interfaces between systems"
+          ],
+        "evidence":
+          [
+            "To have joined your team in discussing and working through technical design of component interfaces and APIs s as part of normal project work"
+          ]
+      },
+      {
+        "name": "User Focus",
+        "description":
+          [
+            "You can show an awareness or understanding of user experience analysis and its principles",
+            "Explain the purpose of user stories and the focus on user needs"
+          ],
+        "evidence":
+          [
+            "To join your Scrum team when refining User Stories to understand the focus on User needs",
+            "To be aware of the GDS UI Toolkit for consistent User Experience"
+          ]
+      }
+    ],
+  "behaviours":
+    [
+      {
+        "name": "Working Together",
+        "description":
+          [
+            "Proactively contribute to the work of the whole team and remain open to taking on new and different roles",
+            "Get to know your colleagues and build supportive relationships",
+            "Listen to alternative perspectives and needs, responding sensitively and checking understanding where necessary",
+            "Ask for help when needed and support others when the opportunity arises",
+            "Be aware of the need to consider your own wellbeing and that of your colleagues",
+            "Understand that bullying, harassment and discrimination are unacceptable",
+            "Form effective partnerships and relationships with people both internally and externally, from a range of diverse backgrounds, sharing information, resources and support"
+          ],
+        "evidence":
+          [
+            "Building relationships with colleagues",
+            "Share knowledge with others",
+            "Support colleagues",
+            "Work as a team",
+            "Understand bullying, harassment and discrimination are unacceptable"
+          ]
+      }
+    ]
+}
+
+

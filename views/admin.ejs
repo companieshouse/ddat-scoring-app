@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DDAT Scoring</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
+  </head>
+  <body>
+  <section class="section">
+    <div class="container">
+      <hr>
+      <div class="columns">
+        <div class="column">
+          <p class="subtitle">DDaT Performance Review</p>
+        </div>
+        <div class="column has-text-right">
+          <p class="subtitle"><%= admin.name %> / <%= admin.role %></p>
+        </div>
+      </div> 
+      <hr>
+
+<div class="columns">
+
+<div class="column is-one-third">
+<%- include('./partials/menu'); %>
+</div>
+
+<div class="column">
+
+  <div class="card">
+    <div class="card-content">
+
+      <div class="media">
+        <div class="media-content">
+          <p class="title is-4">Admin</p>
+        </div>
+      </div>
+
+
+      <form method="post" action="">
+        <div class="content">
+
+          <!-- name -->
+          <div class="field is-horizontal">
+            <div class="field-label is-normal">
+              <label class="label">Name</label>
+            </div>
+            <div class="field-body">
+              <div class="field">
+                <div class="control">
+                  <% if (admin.name == '') { %>
+                  <input class="input is-danger" name="name" type="text" placeholder="5" value="<%= admin.name %>">
+                  <% } else { %>
+                  <input class="input" name="name" type="text" placeholder="5" value="<%= admin.name %>">
+                  <% }; %>
+                </div>
+                <% if (admin.name == '') { %>
+                  <p class="help is-danger">Please enter a name.</p>
+                <% }; %>
+              </div>
+            </div>
+          </div>
+
+          <!-- role -->
+          <div class="field is-horizontal">
+            <div class="field-label is-normal">
+              <label class="label">Role</label>
+            </div>
+            <div class="field-body">
+              <div class="field">
+                <div class="control">
+                  <div class="select">
+                    <select name="role">
+                      <% admin.rolenames.forEach(function(item) {%>
+                        <% if (item == admin.role) { %>
+                        <option selected><%= item %></option>
+                        <% } else { %>
+                        <option><%= item %></option>
+                        <% }; %>
+                      <% }); %>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- grade -->
+          <div class="field is-horizontal">
+            <div class="field-label is-normal">
+              <label class="label">Grade</label>
+            </div>
+            <div class="field-body">
+              <div class="field">
+                <div class="control">
+                  <div class="select">
+                    <select name="grade">
+                      <% admin.grades.forEach( function(item) { %>
+                        <% if (admin.grade == item) { %>
+                          <option selected><%= item %></option>
+                        <% } else { %>
+                          <option><%= item %></option>
+                        <% }; %>
+                      <% }); %>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- current capability level -->
+          <div class="field is-horizontal">
+            <div class="field-label is-normal">
+              <label class="label">Current Capability Level</label>
+            </div>
+            <div class="field-body">
+              <div class="field">
+                <div class="control">
+                  <div class="select">
+
+                    <select name="capability">
+                      <% admin.capabilities.forEach( function(item) { %>
+                        <% if (admin.capability == item) { %>
+                          <option selected><%= item %></option>
+                        <% } else { %>
+                          <option><%= item %></option>
+                        <% }; %>
+                      <% }); %>
+                    </select>
+<!--
+                    <select name="capability">
+                      <option>Developing</option>
+                      <option>Accomplished</option>
+                      <option>Proficient</option>
+                    </select>
+-->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Date of Review -->
+          <div class="field is-horizontal">
+            <div class="field-label is-normal">
+              <label class="label">Date of Review</label>
+            </div>
+            <div class="field-body">
+              <div class="field">
+                <div class="control">
+                  <% if (admin.date == '') { %>
+                  <input class="input is-danger" name="date" type="text" placeholder="5" value="<%= admin.date %>">
+                  <% } else { %>
+                  <input class="input" name="date" type="text" placeholder="5" value="<%= admin.date %>">
+                  <% }; %>
+                </div>
+                <% if (admin.date == '') { %>
+                  <p class="help is-danger">Please enter a date.</p>
+                <% }; %>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="field is-grouped is-grouped-right">
+          <p class="control">
+            <button class="button">
+              Submit
+            </button>
+          </p>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-content">
+      <div class="media">
+        <div class="media-content">
+          <p class="title is-4">Document</p>
+        </div>
+      </div>
+
+      <div class="content">
+        Current document ID is '<%= meta.docid %>'. 
+        <br>
+          <div class="field is-grouped is-grouped-right">
+            <p class="control">
+              <a class="button" href="/go">
+                Home 
+              </a>
+            </p>
+          </div>
+      </div>
+    </div>
+  </div>
+
+
+</div>
+
+</div>  
+
+    </div>
+  </section>
+  </body>
+</html>
+

@@ -1,0 +1,48 @@
+
+<aside class="menu">
+
+  <p class="menu-label">General</p>
+  <ul class="menu-list">
+    <% if (meta.skill == 'admin') { %>
+      <li><a class="is-active" href="<%= meta.hostname %>/admin/<%= meta.role %>/<%= meta.docid %>">Admin</a></li>
+    <% } else { %>
+      <li><a href="<%= meta.hostname %>/admin/<%= meta.role %>/<%= meta.docid %>">Admin</a></li>
+    <% }; %>
+    <li><a href="<%= meta.hostname %>/report/<%= meta.role %>/<%= meta.docid %>" target="_blank">Report</a></li>
+  </ul>
+
+  <p class="menu-label">Skills</p>
+  <ul class="menu-list">
+    <% menudata.forEach(function(item) {%>
+      <% if (item.group == 'skill') { %>
+        <li>
+          <a
+            <% if (item.active) { %>
+              class="is-active" 
+            <% }; %>
+            href = "<%= item.url %>" >
+            <%= item.name %>
+          </a>
+        </li>
+      <% }; %>
+    <% }); %>
+  </ul>
+
+  <p class="menu-label">Behaviours</p>
+  <ul class="menu-list">
+    <% menudata.forEach(function(item) {%>
+      <% if (item.group == 'behaviour') { %>
+        <li>
+          <a
+            <% if (item.active) { %>
+              class="is-active" 
+            <% }; %>
+            href = "<%= item.url %>" >
+            <%= item.name %>
+          </a>
+        </li>
+      <% }; %>
+    <% }); %>
+  </ul>
+
+</aside>

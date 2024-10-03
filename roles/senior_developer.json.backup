@@ -1,0 +1,228 @@
+
+{
+  "role": "Senior Developer",
+  "skills": 
+    [
+      {
+        "name": "Availability and Capacity Management",
+        "description":
+          [
+            "+Working Level",
+            "Manage service components to ensure they meet business needs and performance targets",
+            "+Practitioner Level",
+            "Ensure the correct implementation of standards and procedures",
+            "Identify capacity issues, and stipulate and instigate the required changes",
+            "Initiate remedial action"
+          ],
+        "evidence":
+          [
+            "Provide input into forecasting future work",
+            "Use story points to forecast complexity & time for planned work during",
+            "Recognising & communicating when a requested change could have a negative performance impact",
+            "Choosing a more performant way to implement something",
+            "Carrying out performance testing before picking an option, designing changes with an eye on how they willl be deployed / released to minimise the need for extended downtime etc",
+            "Awareness on the release process and contribute to planning and implementation by preparing release branches, technical release notes and follow up post release on live issues"
+          ]
+      },
+      {
+        "name": "Development Process Optimisation",
+        "description":
+          [
+            "+Working Level",
+            "stuff",
+            "+Practitioner Level",
+            "more stuff"
+          ],
+        "evidence":
+          [
+            "e1",
+            "e2"
+          ]
+      },
+      {
+        "name": "Information Security",
+        "description":
+          [
+            "+Working Level",
+            "stuff",
+            "+Practitioner Level",
+            "more stuff"
+          ],
+        "evidence":
+          [
+            "e1",
+            "e2"
+          ]
+      },
+      {
+        "name": "Modern Standards Approach",
+        "description":
+          [
+            "+Working Level",
+            "stuff",
+            "+Practitioner Level",
+            "more stuff"
+          ],
+        "evidence":
+          [
+            "e1",
+            "e2"
+          ]
+      },
+      {
+        "name": "Software Engineering",
+        "description":
+          [
+            "+ Working Level",
+            "stuff",
+            "+ Practitioner Level",
+            "more stuff"
+          ],
+        "evidence":
+          [
+            "e1",
+            "e2"
+          ]
+      },
+      {
+        "name": "Prototyping",
+        "description":
+          [
+            "+ Working Level",
+            "stuff",
+            "+ Practitioner Level",
+            "more stuff"
+          ],
+        "evidence":
+          [
+            "e1",
+            "e2"
+          ]
+      },
+      {
+        "name": "Service Support",
+        "description":
+          [
+            "+ Working Level",
+            "stuff",
+            "+ Practitioner Level",
+            "more stuff"
+          ],
+        "evidence":
+          [
+            "e1",
+            "e2"
+          ]
+      },
+      {
+        "name": "System Design",
+        "description":
+          [
+            "+ Working Level",
+            "stuff",
+            "+ Practitioner Level",
+            "more stuff"
+          ],
+        "evidence":
+          [
+            "e1",
+            "e2"
+          ]
+      },
+      {
+        "name": "System Integration",
+        "description":
+          [
+            "+ Working Level",
+            "stuff",
+            "+ Practitioner Level",
+            "more stuff"
+          ],
+        "evidence":
+          [
+            "e1",
+            "e2"
+          ]
+      },
+      {
+        "name": "User Focus",
+        "description":
+          [
+            "+ Working Level",
+            "stuff",
+            "+ Practitioner Level",
+            "more stuff"
+          ],
+        "evidence":
+          [
+            "e1",
+            "e2"
+          ]
+      }
+    ],
+  "behaviours":
+    [
+      {
+        "name": "Making Effective Decisions",
+        "description":
+          [
+            "+ Working Level",
+            "stuff",
+            "+ Practitioner Level",
+            "more stuff"
+          ],
+        "evidence":
+          [
+            "e1",
+            "e2"
+          ]
+      },
+      {
+        "name": "Changing and Improving",
+        "description":
+          [
+            "+ Working Level",
+            "stuff",
+            "+ Practitioner Level",
+            "more stuff"
+          ],
+        "evidence":
+          [
+            "e1",
+            "e2"
+          ]
+      },
+      {
+        "name": "Working Together",
+        "description":
+          [
+            "+ Working Level",
+            "stuff",
+            "+ Practitioner Level",
+            "more stuff"
+          ],
+        "evidence":
+          [
+            "e1",
+            "e2"
+          ]
+      },
+      {
+        "name": "Managing a Quality Service",
+        "description":
+          [
+            "+ Working Level",
+            "stuff",
+            "+ Practitioner Level",
+            "more stuff"
+          ],
+        "evidence":
+          [
+            "e1",
+            "e2"
+          ]
+      }
+    ]
+}
+
+

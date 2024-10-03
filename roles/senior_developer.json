@@ -1,0 +1,266 @@
+
+{
+  "role": "Senior Developer",
+  "skills": 
+    [
+      {
+        "name": "Availability and Capacity Management",
+        "description":
+          [
+            "+Working Level",
+            "Manage service components to ensure they meet business needs and performance targets",
+            "+Practitioner Level",
+            "Ensure the correct implementation of standards and procedures",
+            "Identify capacity issues, and stipulate and instigate the required changes",
+            "Initiate remedial action"
+          ],
+        "evidence":
+          [
+            "Provide input into forecasting future work",
+            "Use story points to forecast complexity & time for planned work during",
+            "Recognising & communicating when a requested change could have a negative performance impact",
+            "Choosing a more performant way to implement something",
+            "Carrying out performance testing before picking an option, designing changes with an eye on how they willl be deployed / released to minimise the need for extended downtime etc",
+            "Awareness on the release process and contribute to planning and implementation by preparing release branches, technical release notes and follow up post release on live issues"
+          ]
+      },
+      {
+        "name": "Development Process Optimisation",
+        "description":
+          [
+            "+Working Level",
+            "Identify process optimisation opportunities with guidance and contribute to the implementation of proposed solutions",
+            "Work under guidance to identify process optimisation opportunities",
+            "Contribute to the implementation of proposed solutions"
+          ],
+        "evidence":
+          [
+            "Identify bottlenecks and work with others in team to resolve them",
+            "Raise blockers with the team in a timely fashion",
+            "Jira stories to be kept up to date, with relevant comments added",
+            "Suggest technical improvements",
+            "Participate in discussions around technical improvement",
+            "Review documentation",
+            "Participation in retrospectives",
+            "Participation in technical meetings when necessary"
+          ]
+      },
+      {
+        "name": "Information Security",
+        "description":
+          [
+            "+Practitioner level",
+            "Understand information security",
+            "Design solutions and services with security controls embedded, specifically engineered with mitigation of security threats as a core feature"
+          ],
+        "evidence":
+          [
+            "Complete mandatory Civil Service Learning modules",
+            "Complete Pluralsight security training",
+            "Should be familiar with the CH Secure Design Principles",
+            "Should be familiar with CH Secure Software Development LifeCycle",
+            "OWASP Top Ten Training",
+            "Review Threat Model for existing project (when applicable)",
+            "Ensure all security vulnerabilities and hotspots are reviewed and fixed in line with SLAs",
+            "Ensure Dependabot issues are reviewed and fixed in line with SLAs (if non CHIPS)",
+            "Keep versions of libraries up to date (if non CHIPS)"
+          ]
+      },
+      {
+        "name": "Modern Standards Approach",
+        "description":
+          [
+            "+Practitioner level",
+            "Competently apply a modern standards approach and guide others to do so"
+          ],
+        "evidence":
+          [
+            "Understand and apply the CH coding standards",
+            "Ensure all code meets CH quality standards",
+            "Check that own and others code pass SonarQube quality reports (if non CHIPS)",
+            "Use code reviews to ensure quality of own and other's code"
+          ]
+      },
+      {
+        "name": "Software Engineering",
+        "description":
+          [
+            "+Practitioner level",
+            "Collaborate with others when necessary to review specifications",
+            "Use the agreed specifications to design, code, test and document programs or scripts of medium-to-high complexity, using the right standards and tools"
+          ],
+        "evidence":
+          [
+            "Ability to review designs",
+            "Collaborate on HLD and LLD",
+            "Use agreed specifications to design, code, test, and document",
+            "Demonstrate proficiency with CH tools. Examples of which include: Docker, IDEs, Mongo Atlas,  Oracle, SQL developer / Toad, Kibana, Mesos/Marathon, Cloud watch, ECS",
+            "Proficient in at least one of our standard programming languages. (This can be evidenced by certification)",
+            "Proficient in frameworks we use in CH for example: JSP/JSF, Spring/Hibernate, Express, Testing frameworks"
+          ]
+      },
+      {
+        "name": "Prototyping",
+        "description":
+          [
+            "+Practitioner level",
+            "Approach prototyping as a team activity, actively soliciting prototypes and testing with others",
+            "Establish design patterns and iterate them",
+            "Use a variety of prototyping methods and choose the most appropriate"
+          ],
+        "evidence":
+          [
+            "Understanding of both Design Patterns and Anti Patterns for use when designing solutions",
+            "Ability to do proof of concepts (spikes) and to use the outcome to create stories"
+          ]
+      },
+      {
+        "name": "Service Support",
+        "description":
+          [
+            "+Practitioner level",
+            "Identify, locate and fix faults"
+          ],
+        "evidence":
+          [
+            "Walk through issues with support to resolve known issues",
+            "Offers advice and recommendations regarding different options for resolution when appropriate (quick fix vs longer term solutions) ",
+            "Documenting the known issues and fixes for these",
+            "The ability to fix bugs with minimal support from others",
+            "Able to support a junior staff member working on bug fixes",
+            "Analysis of issues to perform root cause analysis",
+            "The ability to implement the fix with supporting tests",
+            "Be able to teach others the processes in deploying code to all environments particularly: Local docker environment, Test environments, E2E environments, CI Dev",
+            "Manage the release of the bug fix into live and show others how to do this",
+            "Take the lead on maintenance tasks",
+            "Ability to Retrieve logs from source in DEV/local environments",
+            "Understand, follow and are able to teach others about the release process",
+            "Troubleshoot issues in developer environments"
+          ]
+      },
+      {
+        "name": "System Design",
+        "description":
+          [
+            "+Practitioner level",
+            "Design systems characterised by medium levels of risk, impact, and business or technical complexity",
+            "Select appropriate design standards, methods and tools, and ensure they are applied effectively",
+            "Review the systems designs of others to ensure the selection of appropriate technology, efficient use of resources and integration of multiple systems and technology"
+          ],
+        "evidence":
+          [
+            "Produce HLD's & LLD's",
+            "Facilitate and provide recommendations around designs",
+            "Translate logical designs into physical designs",
+            "Ensure all work is documented to our required standards"
+          ]
+      },
+      {
+        "name": "System Integration",
+        "description":
+          [
+            "+Practitioner level",
+            "Define the integration build",
+            "Co-ordinate build activities across systems",
+            "Understand how to undertake and support integration testing activities"
+          ],
+        "evidence":
+          [
+            "Be able to test APIs",
+            "Be able to train others in how to Test APIs",
+            "Able to write Open API specifications",
+            "Able to use the SDKs for different CHS web services and teach others to do likewise",
+            "Take lead on working on more complex integrations",
+            "Able to add services to our cloud-based architecture",
+            "Good knowledge of the CH infrastructure and able to teach others",
+            "Able to contribute to Infrastructure as Code (i.e. Terraform)",
+            "If working on a pure JEE scrum evidence of competence or training completed could be accepted. For example CHIPS Image Service, CHIPS Filing Consumer"
+          ]
+      },
+      {
+        "name": "User Focus",
+        "description":
+          [
+            "+Practitioner level",
+            "Collaborate with user researchers and can represent users internally",
+            "Explain the difference between user needs and the desires of the user",
+            "Champion user research to focus on all users",
+            "Prioritise and define approaches to understand the user story, guiding others in doing so",
+            "Offer recommendations on the best tools and methods to use"
+          ],
+        "evidence":
+          [
+            "Collaborate with user researchers and/or internal users",
+            "Accessibility (testing & development)",
+            "Attend user research sessions for project when relevant",
+            "Use sprint review feedback to improve services",
+            "Contribute to sprint reviews",
+            "Offer recommendations - find coding solutions to user requirements"
+          ]
+      }
+    ],
+  "behaviours":
+    [
+      {
+        "name": "Making Effective Decisions",
+        "description":
+          [
+            "Use evidence and knowledge to support accurate, expert decisions and advice",
+            "Carefully consider alternative options, implications and risks of decisions"
+          ],
+        "evidence":
+          [
+            "Presenting various options with justifications regarding these approaches",
+            "Recognising good points to engage with others",
+            "Contribute to decisions affecting the team and solution being implemented"
+          ]
+      },
+      {
+        "name": "Changing and Improving",
+        "description":
+          [
+            "Seek out opportunities to create effective change and suggest innovative ideas for improvement",
+            "Review ways of working, including seeking and providing feedback"
+          ],
+        "evidence":
+          [
+            "Balance the needs of delivery against quality. For example: Managing technical debt, Reaching MVP, UX", 
+            "Used innovation time to improve something",
+            "Engage with other developers to achieve these aims",
+            "Championing development best practices for example: Test Driven Development, CI/CD, reducing Tech Debt",
+            "Improving security profile",
+            "Continued Professional Development and developing self: Training courses, Certification, Conferences"
+          ]
+      },
+      {
+        "name": "Working Together",
+        "description":
+          [
+            "Form effective partnerships and relationships with people both internally and externally, from a range of diverse backgrounds, sharing information, resources and support"
+          ],
+        "evidence":
+          [
+            "Work effectively as a team e.g. pair programming, mob programming, help with tasks",
+            "Provide support to Third Party Service Providers",
+            "Mentoring junior team members",
+            "Participate in sprint planning, contribute to goal setting and planning",
+            "Use daily stand-up meeting to update the team on progress made and plan for the day",
+            "Update the team on any blockers",
+            "Engage with a range of stakeholders, for example: Architecture, Testing, DevOps, Other Teams, UX, Release Business, More senior management"
+          ]
+      },
+      {
+        "name": "Managing a Quality Service",
+        "description":
+          [
+            "Deliver service objectives with professional excellence, expertise and efficiency, taking account of diverse customer needs"
+          ],
+        "evidence":
+          [
+            ""
+          ]
+      }
+    ]
+}
+
+
